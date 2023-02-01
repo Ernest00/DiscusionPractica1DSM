@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/LlbNumero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/primero" />
+
+    <EditText
+        android:id="@+id/TxtNumero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/LlbNumero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/segundo" />
+
+    <EditText
+        android:id="@+id/TxtNumero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/BtnSumar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/sumar"/>
+
+    <TextView
+        android:id="@+id/LlbResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"
+        android:textSize="20sp" />
+
+</LinearLayout>

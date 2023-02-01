@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Suma 2 Números - DiscusionPractica1DSM</string>
+    <string name="resultado">Resultado:</string>
+    <string name="primero">Primer Número:</string>
+    <string name="segundo">Segundo Número:</string>
+    <string name="sumar">Sumar</string>
+
+</resources>
